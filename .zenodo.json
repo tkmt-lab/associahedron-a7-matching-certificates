@@ -1,0 +1,20 @@
+{
+  "title": "Maximal matchings in the associahedron A7: witnesses and certificates",
+  "version": "1.0.0",
+  "upload_type": "dataset",
+  "description": "Data and verification tools for maximal matchings of the associahedron A7 (429 vertices). A 143-edge maximal matching and a 144-edge C9-invariant maximal matching are given with two independent checkers; an LRAT certificate checked by cake_lpr shows no maximal matching has at most 133 edges (the k=133 certificate is attached as a release asset); a finite certificate shows 144 is the minimum among C9-invariant maximal matchings. The unrestricted minimum lies between 134 and 143 and is not determined. The graph-to-CNF correspondence is documented, not formalized. No human peer review. Code Apache-2.0, original text and generated data CC BY 4.0.",
+  "creators": [
+    {
+      "name": "Takimoto, Tatsuhiko",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "associahedron",
+    "maximal matching",
+    "SAT",
+    "LRAT",
+    "certificates"
+  ]
+}
