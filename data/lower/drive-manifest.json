@@ -1,0 +1,59 @@
+{
+  "status": "STORED_AND_METADATA_VERIFIED",
+  "access": "Restricted: permission listing contains no anyone grant; public release access not enabled by this preparation",
+  "permissions_changed": false,
+  "relative_folder": "spira-research-data/R030/2026-10-26/r030-publication-0f1c1ad4-39ef-42a8-83ba-629438afa89b",
+  "files": [
+    {
+      "id": "1dopbnbmR23hyPChr_l661giUj0oMiyu2",
+      "size": 18020885,
+      "md5": "ca32bc147cf0117e5ec1fe0ad44d2291",
+      "sha256": "caf3d5d3a73c16a334c993cae8f9ba4b6ec3d40c040083aa3f151ade598d104c",
+      "parent": "15n2U3k9XWcFPeHosrx_nEF3CV7fza4GS",
+      "k": 129,
+      "name": "A7-k129-vertex.lrat.gz",
+      "url": "https://drive.google.com/file/d/1dopbnbmR23hyPChr_l661giUj0oMiyu2/view"
+    },
+    {
+      "id": "1MrPwfRDt-SjEbhEN-AO3fO8smyawFJN0",
+      "size": 55197933,
+      "md5": "677b916d2f67bf068197ac66d5110356",
+      "sha256": "687e76961bf296af266cc17d223aded0d7a2d3ba3aa4ac50e9519782e75ca139",
+      "parent": "15n2U3k9XWcFPeHosrx_nEF3CV7fza4GS",
+      "k": 130,
+      "name": "A7-k130-vertex.lrat.gz",
+      "url": "https://drive.google.com/file/d/1MrPwfRDt-SjEbhEN-AO3fO8smyawFJN0/view"
+    },
+    {
+      "id": "10eZDSVnDL6CTxyHsCSz6gfhPzS2feAj_",
+      "size": 82391421,
+      "md5": "65c537fd80b3f3057f5fbe9327430b3d",
+      "sha256": "02c3ec8cf33acf37efefb5fe2bbb6f39c40464e762224b7200b36338d297335d",
+      "parent": "15n2U3k9XWcFPeHosrx_nEF3CV7fza4GS",
+      "k": 131,
+      "name": "A7-k131-vertex.lrat.gz",
+      "url": "https://drive.google.com/file/d/10eZDSVnDL6CTxyHsCSz6gfhPzS2feAj_/view"
+    },
+    {
+      "id": "1C-CgDvcm_P_S8ZvKLkCiu84Gk4BNV61S",
+      "size": 205349688,
+      "md5": "a17d4e94c1cc9cb7de9899ab1292f1e6",
+      "sha256": "bccf60f1f34ac4d076e7665e7fc7da25610932e9bb8a103c95ffbb8649fc1b47",
+      "parent": "15n2U3k9XWcFPeHosrx_nEF3CV7fza4GS",
+      "k": 132,
+      "name": "A7-k132-vertex.lrat.gz",
+      "url": "https://drive.google.com/file/d/1C-CgDvcm_P_S8ZvKLkCiu84Gk4BNV61S/view"
+    },
+    {
+      "id": "1dmJkmcA5UKZEj_D5yRKJSw-DTaXKvi1o",
+      "size": 842748372,
+      "md5": "8c6a2cf2a76bac925303781ce1173a23",
+      "sha256": "874edda89e054b67e2b40dcb67e9e8a87c37ca6798e45b97756da110de6afe30",
+      "parent": "15n2U3k9XWcFPeHosrx_nEF3CV7fza4GS",
+      "k": 133,
+      "name": "A7-k133-vertex.lrat.gz",
+      "url": "https://drive.google.com/file/d/1dmJkmcA5UKZEj_D5yRKJSw-DTaXKvi1o/view"
+    }
+  ],
+  "verification": "Local SHA256 equals accepted archive; remote ID/parent/name/size/MD5/app-property reread via Drive API; no full remote download"
+}

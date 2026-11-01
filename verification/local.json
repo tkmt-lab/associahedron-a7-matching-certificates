@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "scope": "Graph, matching witnesses, C9 finite certificate, CNF regeneration",
+  "python": "3.14.7",
+  "platform": "Darwin-arm64",
+  "graph": {
+    "vertices": 429,
+    "edges": 1287,
+    "degree": 6,
+    "two_generation_methods_agree": true
+  },
+  "upper": [
+    {
+      "matching_size": 143,
+      "candidate_json_sha256": "bbc4c836c2fa3947f2dc851b642ef4ba463ba8bb914459f6e19f15eec8ac4521",
+      "candidate_text_sha256": "cb2468f8f9679c8bbb1a8af306d2dc2cfee4425280d4867cf5ffc10078e28f00",
+      "checker_a": {
+        "verdict": "PASS",
+        "matching_size": 143,
+        "unmatched_vertices": 143,
+        "uncovered_edges": 0,
+        "candidate_sha256": "bbc4c836c2fa3947f2dc851b642ef4ba463ba8bb914459f6e19f15eec8ac4521"
+      },
+      "checker_b": {
+        "verdict": "PASS",
+        "matching_size": 143,
+        "unmatched_vertices": 143,
+        "edge_domination_checked": 1287
+      }
+    },
+    {
+      "matching_size": 144,
+      "candidate_json_sha256": "9267187b67512a8dadaecbe9c46787ffb68d292b8459b8b026406c2f53a83566",
+      "candidate_text_sha256": "f2d72daf9e91c742761335773380310ffcf27460f4be665e6638b487287428da",
+      "checker_a": {
+        "verdict": "PASS",
+        "matching_size": 144,
+        "unmatched_vertices": 141,
+        "uncovered_edges": 0,
+        "candidate_sha256": "9267187b67512a8dadaecbe9c46787ffb68d292b8459b8b026406c2f53a83566"
+      },
+      "checker_b": {
+        "verdict": "PASS",
+        "matching_size": 144,
+        "unmatched_vertices": 141,
+        "edge_domination_checked": 1287
+      }
+    },
+    {
+      "matching_size": 156,
+      "candidate_json_sha256": "bffa4686b5bfccc81b7f39359b455f3c31ad55870a9c0591fe4efbb7e3d9d6df",
+      "candidate_text_sha256": "cc057abd8d13f6475f59e410fafe0a9938a3c4dea88fd77a555621c3795ff8a6",
+      "checker_a": {
+        "verdict": "PASS",
+        "matching_size": 156,
+        "unmatched_vertices": 117,
+        "uncovered_edges": 0,
+        "candidate_sha256": "bffa4686b5bfccc81b7f39359b455f3c31ad55870a9c0591fe4efbb7e3d9d6df"
+      },
+      "checker_b": {
+        "verdict": "PASS",
+        "matching_size": 156,
+        "unmatched_vertices": 117,
+        "edge_domination_checked": 1287
+      }
+    }
+  ],
+  "negative_controls": [
+    "duplicate_endpoint_python_rejected",
+    "duplicate_endpoint_cpp_rejected",
+    "nonedge_python_rejected",
+    "nonedge_cpp_rejected",
+    "not_maximal_python_rejected",
+    "not_maximal_cpp_rejected",
+    "missing_allowed_orbit_rejected",
+    "wrong_target_rejected",
+    "wrong_branch_rejected",
+    "empty_lrat_rejected_by_exact_marker_check"
+  ],
+  "lrat_replayed": true,
+  "new_SAT_search": false,
+  "independent_agent_review": false,
+  "cpp_flags": "-O2 -std=c++17",
+  "cpp_checker_sha256": "1b5218c382aa8f6c4a0e446437164ba094bf62b9ce0300ba82920a75fcf425bf",
+  "C9_witness_invariant_under_all_9_rotations": true,
+  "C9_certificate": {
+    "verdict": "PASS",
+    "certificate_sha256": "748dbd1c6eff9dd52c816916771688ae494681166d92215aa147c2b242e9b1e4",
+    "nodes": 281,
+    "active_orbits": 47,
+    "mandatory_unmatched_orbits": 2,
+    "allowed_unmatched_orbits": 43,
+    "forbidden_independent_size": 17,
+    "C9_invariant_lower_bound": 144,
+    "scope": "C9-invariant maximal matchings only; no unrestricted lower-bound claim",
+    "formal_proof": false,
+    "separate_search_free_verifier": true
+  },
+  "lower_cnf": {
+    "k": 133,
+    "sha256": "287cc482b528d49e57d5b34c787b1e72e8092f73059ee7b410c79995f62aefb6",
+    "regenerated": true,
+    "no_symmetry_breaking": true
+  },
+  "lrat": {
+    "k": 133,
+    "archive_sha256": "874edda89e054b67e2b40dcb67e9e8a87c37ca6798e45b97756da110de6afe30",
+    "raw_sha256": "5dfc84aab0728db05153915ab557bb7d2a6efe4dfa26c3e8c4b38b7be5b2521b",
+    "checker_sha256": "2fee767af4478ed817f8bdf6feea5866e5e59f1f67c2a4477e98ee961612881d",
+    "stdout": "s VERIFIED UNSAT",
+    "guaranteed_layer": "UNSAT of this CNF; graph/encoding correspondence is documented separately"
+  },
+  "seconds": 67.4149116250046,
+  "clean_copy_outside_development_cwd": true
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "title": "A7 maximal-matching witnesses and certificates",
+  "status": "release_v1.0.0",
+  "graph": {
+    "family": "ordered full binary tree rotation graph",
+    "internal_nodes": 7,
+    "polygon_vertices": 9,
+    "vertices": 429,
+    "edges": 1287,
+    "degree": 6
+  },
+  "claims": [
+    {
+      "id": "U143",
+      "statement": "A7 has a maximal matching with 143 edges.",
+      "kind": "existence",
+      "scope": "unrestricted A7",
+      "evidence": [
+        "data/matchings/matching-143.json",
+        "data/matchings/matching-143.txt"
+      ],
+      "verification": [
+        "scripts/check_matching.py",
+        "scripts/check_matching.cpp",
+        "verification/local.json"
+      ],
+      "construction": "Argon (Gemini), laboratory checked",
+      "not_claimed": "143 is the unrestricted minimum"
+    },
+    {
+      "id": "U144",
+      "statement": "A7 has a C9-invariant maximal matching with 144 edges.",
+      "kind": "existence",
+      "scope": "A7; invariant under all 9 polygon rotations",
+      "evidence": [
+        "data/matchings/matching-144.json",
+        "data/matchings/matching-144.txt"
+      ],
+      "verification": [
+        "scripts/check_matching.py",
+        "scripts/check_matching.cpp",
+        "verification/local.json"
+      ],
+      "construction": "laboratory; 144 construction used Argon 153-edge seed and orbit idea",
+      "not_claimed": "144 is the unrestricted minimum"
+    },
+    {
+      "id": "U156",
+      "statement": "A7 has a maximal matching with 156 edges.",
+      "kind": "existence",
+      "scope": "unrestricted A7",
+      "evidence": [
+        "data/matchings/matching-156.json",
+        "data/matchings/matching-156.txt"
+      ],
+      "verification": [
+        "scripts/check_matching.py",
+        "scripts/check_matching.cpp",
+        "verification/local.json"
+      ],
+      "construction": "laboratory GPU search",
+      "not_claimed": "156 is the unrestricted minimum"
+    },
+    {
+      "id": "L134",
+      "statement": "Every maximal matching of A7 has at least 134 edges.",
+      "kind": "lower_bound",
+      "scope": "unrestricted A7; no symmetry constraints in adopted CNF",
+      "evidence": [
+        "data/lower/A7-k133.cnf",
+        "data/lower/certificates.json",
+        "data/lower/drive-manifest.json",
+        "docs/ENCODING.md"
+      ],
+      "verification": [
+        "verify.py --lrat ARCHIVE --checker CAKE_LPR",
+        "verification/local.json"
+      ],
+      "assurance_boundary": "cake_lpr checks this CNF; graph/CNF correspondence uses documented mathematics and finite implementation checks",
+      "not_claimed": "formalized graph-to-CNF correspondence; no claim that M(A7)>=135"
+    },
+    {
+      "id": "C9MIN",
+      "statement": "The minimum size among C9-invariant maximal matchings of A7 is 144.",
+      "kind": "restricted_exact_value",
+      "scope": "invariance under all 9 polygon rotations only",
+      "evidence": [
+        "data/matchings/matching-144.json",
+        "data/c9/c9-no17-certificate.json",
+        "docs/C9-MINIMUM.md"
+      ],
+      "verification": [
+        "scripts/check_c9_certificate.py",
+        "verify.py",
+        "verification/local.json"
+      ],
+      "not_claimed": "an unrestricted lower bound of 144; Lean/LRAT formalization of the C9 certificate"
+    }
+  ],
+  "exact_unrestricted_minimum_established": false,
+  "independent_review_complete": false,
+  "novelty_review_complete": false,
+  "public_release_approved": true,
+  "conjectures": [
+    {
+      "id": "Q1",
+      "statement": "M(A_n)=ceil(C_n/3) for n>=2, where C_n is the nth Catalan number.",
+      "status": "unproved",
+      "evidence_scope": "literature values n=2..6 and upper witness at n=7; n=7 minimum unresolved",
+      "not_a_certified_claim": true,
+      "attribution": "Conjecture stated by this package; motivated by the cited small values and the 143-edge witness. Not attributed to Brenner et al.; no priority claim."
+    }
+  ],
+  "excluded_inferences": [
+    "M(A7)=143",
+    "best known worldwide bounds",
+    "all-n theorem",
+    "timeouts imply UNSAT",
+    "an independent agent review has completed",
+    "lightweight CI replays LRAT"
+  ],
+  "packet_verification": {
+    "status": "PASS",
+    "receipt": "verification/local.json",
+    "lrat_replayed": true,
+    "negative_controls_rejected": 10,
+    "clean_copy": true,
+    "hosted_CI_run": false,
+    "receipt_date": "2026-10-26"
+  }
+}

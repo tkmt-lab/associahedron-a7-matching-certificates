@@ -1,0 +1,15 @@
+{
+  "runtime": "Python >=3.11 standard library; C++17 compiler",
+  "cake_lpr": {
+    "repository": "https://github.com/tanyongkiam/cake_lpr",
+    "commit": "a36874a8b750b43fe4b385b8ddbf5b033e46a3fa",
+    "original_macos_arm64_sha256": "2fee767af4478ed817f8bdf6feea5866e5e59f1f67c2a4477e98ee961612881d",
+    "purpose": "Optional full LRAT replay; not bundled"
+  },
+  "cadical": {
+    "repository": "https://github.com/arminbiere/cadical",
+    "commit": "c60730422e758ef1cebe7aeddf2dda31c996bf04",
+    "version": "3.0.1",
+    "purpose": "Historical producer; not required for verification and not run by this packet"
+  }
+}

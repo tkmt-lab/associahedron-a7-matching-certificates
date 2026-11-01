@@ -1,0 +1,12 @@
+Copyright 2026 Tatsuhiko Takimoto.
+
+Project-owned source code (*.py, *.cpp and CI configuration) is licensed
+under the Apache License 2.0; see Apache-2.0.txt.
+
+Original documentation and generated graph, matching, CNF, finite-certificate,
+LRAT and verification data are licensed under Creative Commons Attribution
+4.0 International; see CC-BY-4.0.txt.
+
+CaDiCaL, cake_lpr, CakeML, compilers, Python, and cited papers are external
+dependencies or references. Their implementations and papers are not bundled.
+Their own licenses apply; this grant does not relicense them.

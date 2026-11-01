@@ -1,0 +1,124 @@
+{
+  "packet_base_commit": "14a3347b1a5af233ee3d9a962e442bdf2cf3dfb1",
+  "construction143": {
+    "authoring_tool": "Argon (Gemini)",
+    "original_source_commit": "f079169b0a3837eb4be0713b22db5b9b5daf39dd",
+    "original_path": "argon-space/r030-143-2026-10-26/matching-143.txt",
+    "sha256": "cb2468f8f9679c8bbb1a8af306d2dc2cfee4425280d4867cf5ffc10078e28f00"
+  },
+  "files": [
+    {
+      "source": "studies/R030/upper-2026-10-26/graph.py",
+      "path": "scripts/graph_models.py",
+      "sha256": "31ab004a9561f5e96ed1cd37a208c8c8c43729f7c3ab5e1719db990c0c7e6e17",
+      "bytes": 3325,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/upper-2026-10-26/graph.json",
+      "path": "data/graph.json",
+      "sha256": "8992f9c119abf6353086f9233b5853503fdc43d561986309e66fc6d0d772a291",
+      "bytes": 39281,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/upper-2026-10-26/polygon-graph.txt",
+      "path": "data/polygon-graph.txt",
+      "sha256": "aba677d46feeaa453a787750a46c578e4875767bafde8b46e31677eb2bf5f11f",
+      "bytes": 9645,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/upper-2026-10-26/check_matching.py",
+      "path": "scripts/check_matching.py",
+      "sha256": "89291d0d50735456315ada8ec7490c2fae3014d32e0376f527edff5519b12036",
+      "bytes": 1192,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/upper-2026-10-26/check_matching.cpp",
+      "path": "scripts/check_matching.cpp",
+      "sha256": "d413caf3982ef9ceb60e4d36cdc6f9fca305f23ab2a86b5f64d640cd8a093346",
+      "bytes": 1557,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/upper-2026-10-26/best-matching.json",
+      "path": "data/matchings/matching-156.json",
+      "sha256": "bffa4686b5bfccc81b7f39359b455f3c31ad55870a9c0591fe4efbb7e3d9d6df",
+      "bytes": 5480,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/upper-2026-10-26/best-matching.txt",
+      "path": "data/matchings/matching-156.txt",
+      "sha256": "cc057abd8d13f6475f59e410fafe0a9938a3c4dea88fd77a555621c3795ff8a6",
+      "bytes": 1173,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/symmetry-2026-10-26/candidate-is-C9-144.json",
+      "path": "data/matchings/matching-144.json",
+      "sha256": "9267187b67512a8dadaecbe9c46787ffb68d292b8459b8b026406c2f53a83566",
+      "bytes": 5020,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/symmetry-2026-10-26/candidate-is-C9-144.txt",
+      "path": "data/matchings/matching-144.txt",
+      "sha256": "f2d72daf9e91c742761335773380310ffcf27460f4be665e6638b487287428da",
+      "bytes": 1084,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/summary-2026-10-26/matching-143-input.txt",
+      "path": "data/matchings/matching-143.txt",
+      "sha256": "cb2468f8f9679c8bbb1a8af306d2dc2cfee4425280d4867cf5ffc10078e28f00",
+      "bytes": 1076,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/symmetry-2026-10-26/c9-no17-certificate.json",
+      "path": "data/c9/c9-no17-certificate.json",
+      "sha256": "748dbd1c6eff9dd52c816916771688ae494681166d92215aa147c2b242e9b1e4",
+      "bytes": 18444,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/lower-2026-10-26/encode.py",
+      "path": "scripts/encode.py",
+      "sha256": "935db765411f7fb9ec1d45708cfd5b4ca0622771c2e2da27f0467e541d88ec55",
+      "bytes": 4789,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/lower-2026-10-26/strengthen.py",
+      "path": "scripts/strengthen.py",
+      "sha256": "c205958bdb7a8cb2b9c8ab0f19497da17faf5afb39e937c6d1dcb63db8026c8c",
+      "bytes": 532,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/lower-2026-10-26/main-k133-a/input.cnf",
+      "path": "data/lower/A7-k133.cnf",
+      "sha256": "287cc482b528d49e57d5b34c787b1e72e8092f73059ee7b410c79995f62aefb6",
+      "bytes": 5315453,
+      "adaptation": "none"
+    },
+    {
+      "source": "studies/R030/symmetry-2026-10-26/check_c9_certificate.py",
+      "path": "scripts/check_c9_certificate.py",
+      "source_sha256": "dd36eeb4999d26410127495e7fea3c0ab53350400f1c476b93ee2c8edd24045e",
+      "adaptation": "packet paths, optional certificate argument, stdout-only, reject optimized Python; proof checks unchanged"
+    },
+    {
+      "source": "data/matchings/matching-143.txt and data/graph.json in this packet",
+      "path": "data/matchings/matching-143.json",
+      "sha256": "bbc4c836c2fa3947f2dc851b642ef4ba463ba8bb914459f6e19f15eec8ac4521",
+      "bytes": 4993,
+      "adaptation": "Laboratory publication wrapper: parses the text pairs and adds size, graph_sha256 and the construction credit; no matching edge changed. Packet preparation assisted by Codex; separate per-file author and creation timestamp were not recorded.",
+      "first_recorded_commit": "edb27004768d52320b016b5de7333c85b0d49d37",
+      "first_recorded_commit_time": "2026-10-26T18:47:07+09:00"
+    }
+  ]
+}

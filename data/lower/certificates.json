@@ -1,0 +1,49 @@
+{
+  "adopted_k": 133,
+  "lower_bound": 134,
+  "certificate_format": "CaDiCaL binary LRAT, gzip compressed",
+  "certificates": [
+    {
+      "k": 129,
+      "cnf_sha256": "f9cf9fc793938c98f98adc0f66a1cb4172afe53bdc3e3375b6ee3f7b6c1ddc5b",
+      "raw_bytes": 39399858,
+      "raw_sha256": "eaa69b86512aaacbf97bc4e636fdd1cf904090f071b596cac40e834951fa1b5c",
+      "gzip_bytes": 18020885,
+      "gzip_sha256": "caf3d5d3a73c16a334c993cae8f9ba4b6ec3d40c040083aa3f151ade598d104c"
+    },
+    {
+      "k": 130,
+      "cnf_sha256": "8c70e41308c0d1d2ac3516acfe565f6e446743ce58a83f60a0d41f1db6000e4f",
+      "raw_bytes": 125114502,
+      "raw_sha256": "d8ddf1f4ee7e14ecf9d4a75586a52850c9d79913ffbff578b4a795965703dd7f",
+      "gzip_bytes": 55197933,
+      "gzip_sha256": "687e76961bf296af266cc17d223aded0d7a2d3ba3aa4ac50e9519782e75ca139"
+    },
+    {
+      "k": 131,
+      "cnf_sha256": "46258ca9612608db83ca28d49ffe74db420a800b1cbb7a37b6d63afbcc0bb0d4",
+      "raw_bytes": 191236618,
+      "raw_sha256": "6424978dd1fa87f4cc2593ce2117ba490def89310408c4f1d95c8ff0b9d6519f",
+      "gzip_bytes": 82391421,
+      "gzip_sha256": "02c3ec8cf33acf37efefb5fe2bbb6f39c40464e762224b7200b36338d297335d"
+    },
+    {
+      "k": 132,
+      "cnf_sha256": "5399dbfdfd8f05df9887bf0c88587b404f20a8207c51991f8bf147cbff9e346e",
+      "raw_bytes": 480935434,
+      "raw_sha256": "b817ebff0cd36fe13f4344e84ead5495879793928f4e158283b432574e3385f0",
+      "gzip_bytes": 205349688,
+      "gzip_sha256": "bccf60f1f34ac4d076e7665e7fc7da25610932e9bb8a103c95ffbb8649fc1b47"
+    },
+    {
+      "k": 133,
+      "cnf_sha256": "287cc482b528d49e57d5b34c787b1e72e8092f73059ee7b410c79995f62aefb6",
+      "raw_bytes": 1999785977,
+      "raw_sha256": "5dfc84aab0728db05153915ab557bb7d2a6efe4dfa26c3e8c4b38b7be5b2521b",
+      "gzip_bytes": 842748372,
+      "gzip_sha256": "874edda89e054b67e2b40dcb67e9e8a87c37ca6798e45b97756da110de6afe30"
+    }
+  ],
+  "archive_locations": "drive-manifest.json",
+  "record_status": "Existing accepted records; see verification/local.json for packet recheck"
+}

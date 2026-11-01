@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this certificate package and the primary references in SOURCES.md."
+title: "Maximal matchings in the associahedron A7: witnesses and certificates"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Takimoto
+    given-names: Tatsuhiko
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+abstract: "Witnesses giving an upper bound of 143, a checked LRAT certificate giving a lower bound of 134, and a finite certificate establishing 144 as the minimum among C9-invariant maximal matchings. The unrestricted exact value and novelty remain unresolved."
+keywords:
+  - associahedron
+  - maximal matching
+  - edge domination
+  - certificate verification
